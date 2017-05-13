@@ -1,0 +1,18 @@
+﻿Proceso: caducidad de contraseñas
+
+Roles: Sistema y Usuario
+
+Actividades:
+-El sistema avisa del tiempo que queda para que la contraeña caduque (45, 30, 15, 7, 3, 2 días) y sea cambiada 
+antes por el usuario
+-El usuario cambia la contraseña dentro del plazo previsto o finalmente cuando su contraseña ha caducado 
+si quiere seguir accediendo al sistema, tiene que cambiarla.
+-El sistema envia un correo de confirmación de que la contraseña fue cambiada con éxito
+
+Servicios: 
+-Avisos del tiempo que queda para cambiar la contraseña
+-Confirmación del cambio de contraeña.
+
+Add-AzureAccount
+Add-AzureVhd -Destination "https://goyo79.blob.core.windows.net/cloudera/cloudera.vhd" -LocalFilePath E:\cloudera\cloudera-quickstart-vm-5.5.0-0-virtualbox-disk1.vhd
+Add-AzureDisk -DiskName "cloudera" -MediaLocation "https://goyo79.blob.core.windows.net/cloudera/cloudera.vhd" -OS "Linux"
