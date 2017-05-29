@@ -15,3 +15,15 @@ class herencia_res_partner(models.Model):
  
     numero_incidencias = fields.Integer(string='numero_incidencias', required=True) 
  
+    @api.onchange('active')
+    def cambiar_fecha_baja(self):
+        self.fecha_baja = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+    @api.one
+    def toggle_active(self):
+        if self.active:
+            self.fecha_baja = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            self.active = False
+        else:
+           self.fecha_baja = ''
+           self.active = True
