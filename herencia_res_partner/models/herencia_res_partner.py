@@ -13,8 +13,21 @@ class herencia_res_partner(models.Model):
  
     fecha_evaluacion = fields.Datetime(string='fecha_evaluacion', required=False) 
  
-    numero_incidencias = fields.Integer(string='numero_incidencias', required=True) 
- 
+    numero_incidencias = fields.Integer(string='numero_incidencias', required=True)
+  
+    x_clasificacion = fields.Selection([('historico', 'Historico'),('provisional','Provisional'),('certificado','Certificado')])
+
+    x_incidencias_historico = fields.Integer(string='Numero de incidencias totales', required=True)
+
+    x_fecha_inicio = fields.Datetime(string='Fecha de inicio', required=True) 
+
+    x_fecha_fin = fields.Datetime(string='Fecha de expiracion', required=False)
+
+    x_razon_social = fields.Char(string='Razon social', required=False)
+
+    x_codigo_contable = fields.Integer(string='Codigo contable', required=False) 
+   
+
     @api.onchange('active')
     def cambiar_fecha_baja(self):
         self.fecha_baja = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
