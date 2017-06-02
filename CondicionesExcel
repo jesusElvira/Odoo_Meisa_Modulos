@@ -1,0 +1,6 @@
+Fórmulas de excel:
+
+	- Concatenar campos con una coma en medio: =SI(Y(ESTEXTO(CM189);ESTEXTO(CN189)); CONCATENAR(CM189;",";CN189);  "")
+
+	- Diferenciar entre mócil y fijo: =SI(ENCONTRAR(6;E190;1)=1;"Movil";"Fijo")
+	
