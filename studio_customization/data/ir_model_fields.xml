@@ -1,0 +1,311 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo>
+  <record model="ir.model.fields" id="studio_customization.new_text_x_cursos_3b7aab18-b7a9-4a78-8b65-3e7b438d5753" context="{'studio': True}">
+    <field name="complete_name" eval="False"/>
+    <field name="compute" eval="False"/>
+    <field name="copy" eval="False"/>
+    <field name="depends" eval="False"/>
+    <field name="domain">[]</field>
+    <field name="field_description">Nombre</field>
+    <field name="groups" eval="[(6, 0, [])]"/>
+    <field name="help" eval="False"/>
+    <field name="index" eval="False"/>
+    <field name="model">x_cursos</field>
+    <field ref="studio_customization.cursos_1ad288d0-dc88-4713-88e0-97d336e30b13" name="model_id"/>
+    <field name="name">x_studio_field_7N5A3</field>
+    <field name="on_delete">set null</field>
+    <field name="readonly" eval="False"/>
+    <field name="related" eval="False"/>
+    <field name="relation" eval="False"/>
+    <field name="relation_field" eval="False"/>
+    <field name="required" eval="False"/>
+    <field name="selectable" eval="True"/>
+    <field name="selection" eval="False"/>
+    <field name="size" eval="False"/>
+    <field name="state">manual</field>
+    <field name="store" eval="True"/>
+    <field name="track_visibility" eval="False"/>
+    <field name="translate" eval="False"/>
+    <field name="ttype">char</field>
+  </record>
+  <record model="ir.model.fields" id="studio_customization.new_text_x_cursos_82ad379f-e61e-4162-be12-dafc5804d6c4" context="{'studio': True}">
+    <field name="complete_name" eval="False"/>
+    <field name="compute" eval="False"/>
+    <field name="copy" eval="False"/>
+    <field name="depends" eval="False"/>
+    <field name="domain">[]</field>
+    <field name="field_description">Profesor</field>
+    <field name="groups" eval="[(6, 0, [])]"/>
+    <field name="help" eval="False"/>
+    <field name="index" eval="False"/>
+    <field name="model">x_cursos</field>
+    <field ref="studio_customization.cursos_1ad288d0-dc88-4713-88e0-97d336e30b13" name="model_id"/>
+    <field name="name">x_studio_field_yq3FD</field>
+    <field name="on_delete">set null</field>
+    <field name="readonly" eval="False"/>
+    <field name="related" eval="False"/>
+    <field name="relation" eval="False"/>
+    <field name="relation_field" eval="False"/>
+    <field name="required" eval="False"/>
+    <field name="selectable" eval="True"/>
+    <field name="selection" eval="False"/>
+    <field name="size" eval="False"/>
+    <field name="state">manual</field>
+    <field name="store" eval="True"/>
+    <field name="track_visibility" eval="False"/>
+    <field name="translate" eval="False"/>
+    <field name="ttype">char</field>
+  </record>
+  <record model="ir.model.fields" id="studio_customization.new_date_time_x_curs_aed2ad11-1674-49a2-9cfa-b57a5ff7334b" context="{'studio': True}">
+    <field name="complete_name" eval="False"/>
+    <field name="compute" eval="False"/>
+    <field name="copy" eval="False"/>
+    <field name="depends" eval="False"/>
+    <field name="domain">[]</field>
+    <field name="field_description">Fecha de comienzo</field>
+    <field name="groups" eval="[(6, 0, [])]"/>
+    <field name="help" eval="False"/>
+    <field name="index" eval="False"/>
+    <field name="model">x_cursos</field>
+    <field ref="studio_customization.cursos_1ad288d0-dc88-4713-88e0-97d336e30b13" name="model_id"/>
+    <field name="name">x_studio_field_gsvjf</field>
+    <field name="on_delete">set null</field>
+    <field name="readonly" eval="False"/>
+    <field name="related" eval="False"/>
+    <field name="relation" eval="False"/>
+    <field name="relation_field" eval="False"/>
+    <field name="required" eval="False"/>
+    <field name="selectable" eval="True"/>
+    <field name="selection" eval="False"/>
+    <field name="size" eval="False"/>
+    <field name="state">manual</field>
+    <field name="store" eval="True"/>
+    <field name="track_visibility" eval="False"/>
+    <field name="translate" eval="False"/>
+    <field name="ttype">datetime</field>
+  </record>
+  <record model="ir.model.fields" id="studio_customization.new_image_x_cursos_45b57dcb-7904-4eeb-974b-1500b3eb2037" context="{'studio': True}">
+    <field name="complete_name" eval="False"/>
+    <field name="compute" eval="False"/>
+    <field name="copy" eval="False"/>
+    <field name="depends" eval="False"/>
+    <field name="domain">[]</field>
+    <field name="field_description">Imagen curso</field>
+    <field name="groups" eval="[(6, 0, [])]"/>
+    <field name="help" eval="False"/>
+    <field name="index" eval="False"/>
+    <field name="model">x_cursos</field>
+    <field ref="studio_customization.cursos_1ad288d0-dc88-4713-88e0-97d336e30b13" name="model_id"/>
+    <field name="name">x_studio_field_1STPm</field>
+    <field name="on_delete">set null</field>
+    <field name="readonly" eval="False"/>
+    <field name="related" eval="False"/>
+    <field name="relation" eval="False"/>
+    <field name="relation_field" eval="False"/>
+    <field name="required" eval="False"/>
+    <field name="selectable" eval="True"/>
+    <field name="selection" eval="False"/>
+    <field name="size" eval="False"/>
+    <field name="state">manual</field>
+    <field name="store" eval="True"/>
+    <field name="track_visibility" eval="False"/>
+    <field name="translate" eval="False"/>
+    <field name="ttype">binary</field>
+  </record>
+  <record model="ir.model.fields" id="studio_customization.new_date_x_cursos_138e132e-e675-4a34-bdbf-e16c6a129731" context="{'studio': True}">
+    <field name="complete_name" eval="False"/>
+    <field name="compute" eval="False"/>
+    <field name="copy" eval="False"/>
+    <field name="depends" eval="False"/>
+    <field name="domain">[]</field>
+    <field name="field_description">Fecha comienzo</field>
+    <field name="groups" eval="[(6, 0, [])]"/>
+    <field name="help" eval="False"/>
+    <field name="index" eval="False"/>
+    <field name="model">x_cursos</field>
+    <field ref="studio_customization.cursos_1ad288d0-dc88-4713-88e0-97d336e30b13" name="model_id"/>
+    <field name="name">x_studio_field_3hAfL</field>
+    <field name="on_delete">set null</field>
+    <field name="readonly" eval="False"/>
+    <field name="related" eval="False"/>
+    <field name="relation" eval="False"/>
+    <field name="relation_field" eval="False"/>
+    <field name="required" eval="False"/>
+    <field name="selectable" eval="True"/>
+    <field name="selection" eval="False"/>
+    <field name="size" eval="False"/>
+    <field name="state">manual</field>
+    <field name="store" eval="True"/>
+    <field name="track_visibility" eval="False"/>
+    <field name="translate" eval="False"/>
+    <field name="ttype">date</field>
+  </record>
+  <record model="ir.model.fields" id="studio_customization.new_date_x_cursos_73392331-6b22-4796-b9d9-564cf4cb53d3" context="{'studio': True}">
+    <field name="complete_name" eval="False"/>
+    <field name="compute" eval="False"/>
+    <field name="copy" eval="False"/>
+    <field name="depends" eval="False"/>
+    <field name="domain">[]</field>
+    <field name="field_description">Fecha finalizacion</field>
+    <field name="groups" eval="[(6, 0, [])]"/>
+    <field name="help" eval="False"/>
+    <field name="index" eval="False"/>
+    <field name="model">x_cursos</field>
+    <field ref="studio_customization.cursos_1ad288d0-dc88-4713-88e0-97d336e30b13" name="model_id"/>
+    <field name="name">x_studio_field_SCm3u</field>
+    <field name="on_delete">set null</field>
+    <field name="readonly" eval="False"/>
+    <field name="related" eval="False"/>
+    <field name="relation" eval="False"/>
+    <field name="relation_field" eval="False"/>
+    <field name="required" eval="False"/>
+    <field name="selectable" eval="True"/>
+    <field name="selection" eval="False"/>
+    <field name="size" eval="False"/>
+    <field name="state">manual</field>
+    <field name="store" eval="True"/>
+    <field name="track_visibility" eval="False"/>
+    <field name="translate" eval="False"/>
+    <field name="ttype">date</field>
+  </record>
+  <record model="ir.model.fields" id="studio_customization.name_x_cursos_1bd461c0-ad8a-4b0d-a198-28484edaaf19" context="{'studio': True}">
+    <field name="complete_name" eval="False"/>
+    <field name="compute" eval="False"/>
+    <field name="copy" eval="False"/>
+    <field name="depends" eval="False"/>
+    <field name="domain">[]</field>
+    <field name="field_description">Nombre</field>
+    <field name="groups" eval="[(6, 0, [])]"/>
+    <field name="help" eval="False"/>
+    <field name="index" eval="False"/>
+    <field name="model">x_cursos</field>
+    <field ref="studio_customization.cursos_1ad288d0-dc88-4713-88e0-97d336e30b13" name="model_id"/>
+    <field name="name">x_name</field>
+    <field name="on_delete">set null</field>
+    <field name="readonly" eval="False"/>
+    <field name="related" eval="False"/>
+    <field name="relation" eval="False"/>
+    <field name="relation_field" eval="False"/>
+    <field name="required" eval="False"/>
+    <field name="selectable" eval="True"/>
+    <field name="selection" eval="False"/>
+    <field name="size" eval="False"/>
+    <field name="state">manual</field>
+    <field name="store" eval="True"/>
+    <field name="track_visibility" eval="False"/>
+    <field name="translate" eval="False"/>
+    <field name="ttype">char</field>
+  </record>
+  <record model="ir.model.fields" id="studio_customization.users_x_cursos_df01453b-7596-46a1-8a2b-e86e974e12e8" context="{'studio': True}">
+    <field name="complete_name" eval="False"/>
+    <field name="compute" eval="False"/>
+    <field name="copy" eval="False"/>
+    <field name="depends" eval="False"/>
+    <field name="domain">[]</field>
+    <field name="field_description">Users</field>
+    <field name="groups" eval="[(6, 0, [])]"/>
+    <field name="help" eval="False"/>
+    <field name="index" eval="False"/>
+    <field name="model">x_cursos</field>
+    <field ref="studio_customization.cursos_1ad288d0-dc88-4713-88e0-97d336e30b13" name="model_id"/>
+    <field name="name">x_studio_field_wlgtO</field>
+    <field name="on_delete">set null</field>
+    <field name="readonly" eval="False"/>
+    <field name="related" eval="False"/>
+    <field name="relation">res.users</field>
+    <field name="relation_field" eval="False"/>
+    <field name="required" eval="False"/>
+    <field name="selectable" eval="True"/>
+    <field name="selection" eval="False"/>
+    <field name="size" eval="False"/>
+    <field name="state">manual</field>
+    <field name="store" eval="True"/>
+    <field name="track_visibility" eval="False"/>
+    <field name="translate" eval="False"/>
+    <field name="ttype">many2one</field>
+  </record>
+  <record model="ir.model.fields" id="studio_customization.users_x_cursos_1f9d8796-ca53-4ca2-8555-f12c179c870f" context="{'studio': True}">
+    <field name="complete_name" eval="False"/>
+    <field name="compute" eval="False"/>
+    <field name="copy" eval="False"/>
+    <field name="depends" eval="False"/>
+    <field name="domain">[]</field>
+    <field name="field_description">Users</field>
+    <field name="groups" eval="[(6, 0, [])]"/>
+    <field name="help" eval="False"/>
+    <field name="index" eval="False"/>
+    <field name="model">x_cursos</field>
+    <field ref="studio_customization.cursos_1ad288d0-dc88-4713-88e0-97d336e30b13" name="model_id"/>
+    <field name="name">x_studio_field_5W8KL</field>
+    <field name="on_delete">set null</field>
+    <field name="readonly" eval="False"/>
+    <field name="related" eval="False"/>
+    <field name="relation">res.users</field>
+    <field name="relation_field" eval="False"/>
+    <field name="required" eval="False"/>
+    <field name="selectable" eval="True"/>
+    <field name="selection" eval="False"/>
+    <field name="size" eval="False"/>
+    <field name="state">manual</field>
+    <field name="store" eval="True"/>
+    <field name="track_visibility" eval="False"/>
+    <field name="translate" eval="False"/>
+    <field name="ttype">many2many</field>
+  </record>
+  <record model="ir.model.fields" id="studio_customization.new_select_x_cursos_e1ac861c-f1ad-4956-86ab-6889dcd9d0ac" context="{'studio': True}">
+    <field name="complete_name" eval="False"/>
+    <field name="compute" eval="False"/>
+    <field name="copy" eval="False"/>
+    <field name="depends" eval="False"/>
+    <field name="domain">[]</field>
+    <field name="field_description">Hora inicio</field>
+    <field name="groups" eval="[(6, 0, [])]"/>
+    <field name="help" eval="False"/>
+    <field name="index" eval="False"/>
+    <field name="model">x_cursos</field>
+    <field ref="studio_customization.cursos_1ad288d0-dc88-4713-88e0-97d336e30b13" name="model_id"/>
+    <field name="name">x_studio_field_zFJTM</field>
+    <field name="on_delete">set null</field>
+    <field name="readonly" eval="False"/>
+    <field name="related" eval="False"/>
+    <field name="relation" eval="False"/>
+    <field name="relation_field" eval="False"/>
+    <field name="required" eval="False"/>
+    <field name="selectable" eval="True"/>
+    <field name="selection">[[u'Hora de inicio', u'Hora de inicio'], [u'9:00 h', u'9:00 h'], [u'10:00 h', u'10:00 h'], [u'11: 00 h', u'11: 00 h'], [u'12: 00 h', u'12: 00 h'], [u'13 : 00 h', u'13 : 00 h'], [u'14:00 h', u'14:00 h'], [u'16:00 h', u'16:00 h'], [u'17:00 h', u'17:00 h'], [u'18:00 h', u'18:00 h'], [u'19:00 h', u'19:00 h'], [u'20:00 h', u'20:00 h'], [u'21:00 h', u'21:00 h'], [u'22:00 h', u'22:00 h'], [u'23:00 h', u'23:00 h']]</field>
+    <field name="size" eval="False"/>
+    <field name="state">manual</field>
+    <field name="store" eval="True"/>
+    <field name="track_visibility" eval="False"/>
+    <field name="translate" eval="False"/>
+    <field name="ttype">selection</field>
+  </record>
+  <record model="ir.model.fields" id="studio_customization.new_text_x_cursos_73ee4ec5-8700-4039-9884-e244043ceefb" context="{'studio': True}">
+    <field name="complete_name" eval="False"/>
+    <field name="compute" eval="False"/>
+    <field name="copy" eval="False"/>
+    <field name="depends" eval="False"/>
+    <field name="domain">[]</field>
+    <field name="field_description">New Text</field>
+    <field name="groups" eval="[(6, 0, [])]"/>
+    <field name="help" eval="False"/>
+    <field name="index" eval="False"/>
+    <field name="model">x_cursos</field>
+    <field ref="studio_customization.cursos_1ad288d0-dc88-4713-88e0-97d336e30b13" name="model_id"/>
+    <field name="name">x_studio_field_wH8vs</field>
+    <field name="on_delete">set null</field>
+    <field name="readonly" eval="False"/>
+    <field name="related" eval="False"/>
+    <field name="relation" eval="False"/>
+    <field name="relation_field" eval="False"/>
+    <field name="required" eval="False"/>
+    <field name="selectable" eval="True"/>
+    <field name="selection" eval="False"/>
+    <field name="size" eval="False"/>
+    <field name="state">manual</field>
+    <field name="store" eval="True"/>
+    <field name="track_visibility" eval="False"/>
+    <field name="translate" eval="False"/>
+    <field name="ttype">char</field>
+  </record>
+</odoo>

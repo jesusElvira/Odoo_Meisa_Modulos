@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo>
+  <record model="ir.model.access" id="studio_customization.cursos_group_system_fb485b63-3870-4f5e-8cd5-bcaef0a58362" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field ref="base.group_system" name="group_id"/>
+    <field ref="studio_customization.cursos_1ad288d0-dc88-4713-88e0-97d336e30b13" name="model_id"/>
+    <field name="name">Cursos group_system</field>
+    <field name="perm_create" eval="True"/>
+    <field name="perm_read" eval="True"/>
+    <field name="perm_unlink" eval="True"/>
+    <field name="perm_write" eval="True"/>
+  </record>
+  <record model="ir.model.access" id="studio_customization.cursos_group_user_72f08965-3b74-4b13-af8f-918b28b7bbf9" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field ref="base.group_user" name="group_id"/>
+    <field ref="studio_customization.cursos_1ad288d0-dc88-4713-88e0-97d336e30b13" name="model_id"/>
+    <field name="name">Cursos group_user</field>
+    <field name="perm_create" eval="False"/>
+    <field name="perm_read" eval="True"/>
+    <field name="perm_unlink" eval="False"/>
+    <field name="perm_write" eval="False"/>
+  </record>
+</odoo>

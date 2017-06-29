@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo>
+  <record model="ir.ui.view" id="studio_customization.default_form_view_fo_85a46517-7e63-4127-8496-bc18d34d78e6" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field type="xml" name="arch">
+      <form>
+        <sheet string="Cursos">
+          <div class="oe_title">
+            <h1>
+              <field name="x_name" required="1"/>
+            </h1>
+          </div>
+          <group name="1775c1">
+            <group name="b71675"/>
+            <group name="3950f3"/>
+          </group>
+        </sheet>
+      </form>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_cursos</field>
+    <field name="name">Default form view for x_cursos</field>
+    <field name="priority">16</field>
+    <field name="type">form</field>
+  </record>
+  <record model="ir.ui.view" id="studio_customization.default_tree_view_fo_b93ac1e0-ce48-45a9-9bc1-bd5c8d06d1c4" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field type="xml" name="arch">
+      <tree string="Cursos">
+        <field name="x_name" modifiers="{}"/>
+      </tree>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_cursos</field>
+    <field name="name">Default tree view for x_cursos</field>
+    <field name="priority">16</field>
+    <field name="type">tree</field>
+  </record>
+  <record model="ir.ui.view" id="studio_customization.odoo_studio_default__83313085-d29d-45e6-93e3-5dcc240158e3" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field type="xml" name="arch">
+      <data>
+        <xpath expr="//field[@name='x_name'][not(ancestor::field)]" position="attributes">
+          <attribute name="groups"/>
+          <attribute name="string">Curso</attribute>
+        </xpath>
+        <xpath expr="/form[1]/sheet[1]/div[1]" position="after">
+          <field name="x_studio_field_7N5A3"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_field_7N5A3'][not(ancestor::field)]" position="attributes">
+          <attribute name="groups"/>
+          <attribute name="string">Nombre</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_field_7N5A3'][not(ancestor::field)]" position="attributes">
+          <attribute name="groups"/>
+          <attribute name="help">Introduzca el nombre del curso</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_field_7N5A3'][not(ancestor::field)]" position="attributes">
+          <attribute name="groups"/>
+          <attribute name="placeholder">Header</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_field_7N5A3'][not(ancestor::field)]" position="attributes">
+          <attribute name="groups"/>
+          <attribute name="placeholder"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_field_7N5A3'][not(ancestor::field)]" position="attributes">
+          <attribute name="groups"/>
+          <attribute name="required">True</attribute>
+        </xpath>
+        <xpath expr="//group[@name='b71675'][not(ancestor::field)]" position="inside">
+          <group name="studio_group_D0z7n">
+            <group name="studio_group_D0z7n_left" string="Left Title"/>
+            <group name="studio_group_D0z7n_right" string="Right Title"/>
+          </group>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_D0z7n_left'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//group[@name='studio_group_D0z7n'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="/form[1]/sheet[1]/div[1]" position="after">
+          <group name="studio_group_LqtQG">
+            <group name="studio_group_LqtQG_left" string="Left Title"/>
+            <group name="studio_group_LqtQG_right" string="Right Title"/>
+          </group>
+        </xpath>
+        <xpath expr="/form[1]/sheet[1]/div[1]/h1[1]" position="replace"/>
+        <xpath expr="//group[@name='studio_group_LqtQG_left'][not(ancestor::field)]" position="inside">
+          <field name="x_name"/>
+        </xpath>
+        <xpath expr="//field[@name='x_name'][not(ancestor::field)]" position="attributes">
+          <attribute name="groups"/>
+          <attribute name="string"/>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_LqtQG_left'][not(ancestor::field)]" position="attributes">
+          <attribute name="groups"/>
+          <attribute name="string">Curso</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_name'][not(ancestor::field)]" position="attributes">
+          <attribute name="groups"/>
+          <attribute name="string">Nombre</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_field_7N5A3'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//field[@name='x_name'][not(ancestor::field)]" position="after">
+          <field name="x_studio_field_yq3FD"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_field_yq3FD'][not(ancestor::field)]" position="attributes">
+          <attribute name="groups"/>
+          <attribute name="string">Profesor</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_field_yq3FD'][not(ancestor::field)]" position="attributes">
+          <attribute name="groups"/>
+          <attribute name="help">Introduce el nombre del profesor</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_field_yq3FD'][not(ancestor::field)]" position="after">
+          <field name="x_studio_field_gsvjf"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_field_gsvjf'][not(ancestor::field)]" position="attributes">
+          <attribute name="groups"/>
+          <attribute name="string">Fecha de comienzo</attribute>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_LqtQG_right'][not(ancestor::field)]" position="inside">
+          <field name="x_studio_field_1STPm" widget="image"/>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_LqtQG_right'][not(ancestor::field)]" position="attributes">
+          <attribute name="groups"/>
+          <attribute name="string"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_field_1STPm'][not(ancestor::field)]" position="attributes">
+          <attribute name="groups"/>
+          <attribute name="string">Imagen curso</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_field_gsvjf'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//field[@name='x_studio_field_yq3FD'][not(ancestor::field)]" position="after">
+          <field name="x_studio_field_3hAfL"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_field_3hAfL'][not(ancestor::field)]" position="attributes">
+          <attribute name="groups"/>
+          <attribute name="string">Fecha comienzo</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_field_3hAfL'][not(ancestor::field)]" position="attributes">
+          <attribute name="groups"/>
+          <attribute name="help">Introduce la fecha de comienzo del xurso</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_field_3hAfL'][not(ancestor::field)]" position="after">
+          <field name="x_studio_field_SCm3u"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_field_SCm3u'][not(ancestor::field)]" position="attributes">
+          <attribute name="groups"/>
+          <attribute name="string">Fecha finalizacion</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_field_SCm3u'][not(ancestor::field)]" position="attributes">
+          <attribute name="groups"/>
+          <attribute name="help">Introduce la fecha finalización del curso</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_field_SCm3u'][not(ancestor::field)]" position="after">
+          <field name="x_studio_field_5W8KL"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_field_5W8KL'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//field[@name='x_studio_field_SCm3u'][not(ancestor::field)]" position="after">
+          <field name="x_studio_field_wlgtO"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_field_wlgtO'][not(ancestor::field)]" position="after">
+          <field name="x_studio_field_zFJTM"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_field_zFJTM'][not(ancestor::field)]" position="attributes">
+          <attribute name="groups"/>
+          <attribute name="string">Hora inicio</attribute>
+        </xpath>
+        <xpath expr="//sheet" position="after">
+          <div class="oe_chatter">
+            <field name="message_follower_ids" widget="mail_followers"/>
+            <field name="message_ids" widget="mail_thread"/>
+          </div>
+        </xpath>
+      </data>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field ref="studio_customization.default_form_view_fo_85a46517-7e63-4127-8496-bc18d34d78e6" name="inherit_id"/>
+    <field name="mode">extension</field>
+    <field name="model">x_cursos</field>
+    <field name="name">Odoo Studio: Default form view for x_cursos customization</field>
+    <field name="priority">99</field>
+    <field name="type">form</field>
+  </record>
+  <record model="ir.ui.view" id="studio_customization.odoo_studio_default__12bda0e3-6820-4cae-a88d-37b17b22a73c" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field type="xml" name="arch">
+      <data>
+        <xpath expr="//field[@name='x_name'][not(ancestor::field)]" position="after">
+          <field name="x_studio_field_wH8vs"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_field_wH8vs'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//field[@name='x_name'][not(ancestor::field)]" position="after">
+          <field name="x_studio_field_3hAfL"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_field_3hAfL'][not(ancestor::field)]" position="after">
+          <field name="x_studio_field_SCm3u"/>
+        </xpath>
+      </data>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field ref="studio_customization.default_tree_view_fo_b93ac1e0-ce48-45a9-9bc1-bd5c8d06d1c4" name="inherit_id"/>
+    <field name="mode">extension</field>
+    <field name="model">x_cursos</field>
+    <field name="name">Odoo Studio: Default tree view for x_cursos customization</field>
+    <field name="priority">99</field>
+    <field name="type">tree</field>
+  </record>
+  <record model="ir.ui.view" id="studio_customization.default_kanban_view__030f66cc-a900-4416-893e-0afa88ecaef4" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field type="xml" name="arch">
+      <kanban string="Cursos">
+        <templates>
+          <t t-name="kanban-box">
+            <div t-attf-class="oe_kanban_card oe_kanban_global_click">
+              <div class="o_kanban_card_content">
+                <field name="x_name" modifiers="{}"/>
+              </div>
+            </div>
+          </t>
+        </templates>
+      </kanban>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_cursos</field>
+    <field name="name">Default kanban view for x_cursos</field>
+    <field name="priority">16</field>
+    <field name="type">kanban</field>
+  </record>
+</odoo>
